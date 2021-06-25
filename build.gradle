@@ -1,0 +1,9 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {}
+
+dependencies {
+	implementation files('deps/canyon-api.jar')
+}
